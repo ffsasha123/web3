@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна: QuickSort</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <div class="app-wrapper">
+        <header>
+            <h1>Алгоритм QuickSort</h1>
+        </header>
+        <main>
+            <div class="control-panel">
+                <label for="numbers-input">Стартовий масив (кома-роздільник):</label>
+                <input type="text" id="numbers-input" value="42, 15, 8, 99, 23, 4, 16">
+                <div class="btn-group">
+                    <button id="start-btn" type="button">Ініціалізувати</button>
+                    <button id="next-btn" type="button" disabled>Наступний крок</button>
+                </div>
+            </div>
+
+            <div class="sort-board" id="sort-board"></div>
+
+            <p id="info-text">Очікування даних для сортування...</p>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
